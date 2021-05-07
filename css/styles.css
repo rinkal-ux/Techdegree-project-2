@@ -173,6 +173,9 @@ a:hover {
     justify-content: center;
     padding-bottom:55px;
   }
+  .main-nav{
+    max-width: 50%;
+  }
   .introduction {
     display: flex;
     flex-direction: row-reverse;
@@ -214,9 +217,18 @@ a:hover {
     display: flex;
     justify-content: flex-end;
   }
+  .footer-nav{
+    max-width:30%;
+    margin:0;
+  }
+
+
   .footer-nav a {
     padding: 10px;
-    margin: auto;
+    margin:0;
+  }
+  .name{
+    margin:0;
   }
   .bottom-nav {
     display: none;
@@ -235,8 +247,17 @@ a:hover {
   .nav-item a{
     padding-left:20px;
   }
+  .main-nav{
+    margin-right:50px;
+  }
 
-
+  .footer-nav {
+  max-width: 40%;
+  margin:0;
+  }
+  .name{
+    margin:0;
+  }
   .introduction {
     display: flex;
     flex-direction: row-reverse;
